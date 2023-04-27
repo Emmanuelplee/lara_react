@@ -10,6 +10,8 @@ class Url extends Model
 {
     use HasFactory;
 
+    protected $table = 'urls';
+
     protected $fillable = [
         'url',
         'short_url',
